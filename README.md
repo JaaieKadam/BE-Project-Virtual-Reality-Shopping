@@ -1,8 +1,58 @@
-# 20_Using AR/VR for Shopping 
+# VR-Mart: Virtual Reality Shopping System
 
-# Group Members:
-1. Jaaie Kadam
-2. Prachi Manera
+A virtual reality–based shopping prototype built using Unity, designed to simulate the realistic in-store experience of browsing and interacting with products inside a VR mall. This project was developed as a final-year engineering project and extended into a published research paper.
 
-# Description: 
-V-Mart is a virtual reality-based smartphone application that will allow users to experience the immersive-ness and lifelike quality of a typical brick-and-mortar shop. The World Health Organization (WHO) proclaimed the new pathogenic Covid-19 outbreak to be a Public Health Emergency of International Concern following the outbreak. Everything was shut down, and no one was permitted to be out in public for any purpose. When the government imposed social distance rules and a limit on the number of people permitted in shopping malls, consumers flocked to internet shopping since it was more convenient. But, when it comes to buying, the most essential component is "trust," which e-commerce websites do not provide since consumers do not have the opportunity to inspect the goods in person, which is a key factor in allowing the consumer to make an educated decision. As a result, this V-Mart solution was created, which combines the benefits and convenience of e-commerce websites with the in-store experience. V-Mart focuses on providing people with all of their monthly necessities. Customers that use V-Mart will be able to shop at their leisure, from anywhere and whenever they choose. Users may stroll through the mall, selecting and inspecting anything they desire to purchase in 3D. When the user selects the product, the screen will display all of the relevant information about the product. If the user does not want to spend too much time exploring, they can utilize the navigation or search functions. Users will be able to rate and express comments on their shopping experience and particular goods, and they will also receive suggestions based on their input and purchase history.
+---
+
+## 🎯 Overview
+
+- Built a fully functional VR shopping environment using **Unity & C#**.
+- Designed around the idea of replicating physical shopping experiences during COVID-19 lockdowns.
+- Includes the **design and prototype implementation** of a content-based recommender system using Python.
+- Presented at the **International Conference on Communication and Intelligent Systems (ICCIS)** and published as a research paper.
+
+---
+
+## 🧪 Research Publication
+
+This project resulted in the following published paper:
+
+**“Virtual Reality Shopping System” – Published at ICCIS 2021**
+
+PDF available inside the `docs/` folder.
+
+The research covers:
+- Digital transformation of retail through VR  
+- Human–computer interaction in immersive environments  
+- Recommendation techniques for personalized product discovery  
+- System architecture & evaluation  
+
+---
+
+## 🧱 Architecture
+
+### 🔹 1. VR Application (Unity & C#)  
+Implements the 3D mall environment:
+
+- Multiple aisles and product categories  
+- Product detail panels  
+- Interaction events (pickup, inspect, browse)  
+- Teleportation & UI navigation  
+
+### 🔹 2. Recommender System Prototype (Python)  
+A lightweight **content-based filtering engine**, implemented as a prototype.
+
+- Uses product metadata (category, brand, price range, attributes) and user interaction history to build a user profile.  
+- Content-based filtering: recommend items similar to those viewed/liked by the user using feature vectors and similarity measures (e.g. cosine similarity).  
+- Intended integration: Unity app sends selected product ID / user history → recommender returns a ranked list of similar products.
+
+---
+
+## 🛠 Tech Stack
+
+- **VR & Frontend:** Unity, C#, Node.js 
+- **ML Prototype:** Python, Pandas, NumPy, Scikit-Learn  
+- **Version Control:** Git, GitHub  
+- **Documentation:** Research paper, reports, presentations (in `docs/`)  
+
+---
